@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 10, "column": 0}, "map": {"version":3,"sources":["file:///Users/louisdw/Desktop/Copilot-commercant/copilot-commercant/src/app/page.tsx"],"sourcesContent":["import Header from '../components/Header';\nimport Footer from '../components/Footer';\n\nconst HomePage = () => {\n    return (\n        <div>\n            <Header />\n            <main>\n                <h1>Welcome to Copilot Commercant</h1>\n                <p>Your one-stop solution for all your commerce needs.</p>\n            </main>\n            <Footer />\n        </div>\n    );\n};\n\nexport default HomePage;"],"names":["HomePage"],"mappings":";;;;;AAAA;AACA;;;;AAEA,MAAMA,WAAW;IACb,qBACI,8OAAC;;0BACG,8OAAC,uIAAM;;;;;0BACP,8OAAC;;kCACG,8OAAC;kCAAG;;;;;;kCACJ,8OAAC;kCAAE;;;;;;;;;;;;0BAEP,8OAAC,uIAAM;;;;;;;;;;;AAGnB;uCAEeA"}}]
+}

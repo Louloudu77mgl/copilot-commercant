@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 9, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":""}},
+    {"offset": {"line": 13, "column": 0}, "map": {"version":3,"sources":["file:///Users/louisdw/Desktop/Copilot-commercant/copilot-commercant/src/app/test/page.tsx"],"sourcesContent":["import { supabase } from '../../lib/supabase'\nexport default async function TestPage() {\n  const { data, error } = await supabase.from('test').select('*')\n\n  return (\n    <main style={{ padding: 20 }}>\n      <h1>Test Supabase</h1>\n      <pre>{JSON.stringify({ data, error }, null, 2)}</pre>\n    </main>\n  )\n}"],"names":["TestPage","data","error","from","select","style","padding","JSON","stringify"],"mappings":";;;;;AAAA;;;AACe,eAAeA;IAC5B,MAAM,EAAEC,IAAI,EAAEC,KAAK,EAAE,GAAG,MAAM,kIAAQ,CAACC,IAAI,CAAC,QAAQC,MAAM,CAAC;IAE3D,qBACE,8OAAC;QAAKC,OAAO;YAAEC,SAAS;QAAG;;0BACzB,8OAAC;0BAAG;;;;;;0BACJ,8OAAC;0BAAKC,KAAKC,SAAS,CAAC;oBAAEP;oBAAMC;gBAAM,GAAG,MAAM;;;;;;;;;;;;AAGlD"}}]
+}
